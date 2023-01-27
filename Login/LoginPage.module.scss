@@ -1,0 +1,14 @@
+@import "../../theme/variables";
+
+.loginPage {
+    @media (min-width: 480px) {
+        width: 50vw;
+    }
+    min-height: 50vh;
+    margin: 10vh auto;
+    padding: 10vh;
+
+    background: $background-dark;
+    color: $text-negative;
+    text-align: center;
+}
